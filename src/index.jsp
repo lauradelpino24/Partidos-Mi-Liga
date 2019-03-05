@@ -41,7 +41,6 @@
                 </div>
                 <ul class="nav navbar-nav">
                     <li><a href="index.jsp" style="color: whitesmoke">Inicio</a></li>
-                    <li><a href="equipos.jsp" style="color: whitesmoke">Equipos</a></li>
                 </ul>
         </nav>
         <div id="container1">
@@ -118,7 +117,7 @@
 	                    out.println("<td>" + listadoJornadas.getString("fecha") + "</td>");
 	                    out.println("<td>" + listadoJornadas.getString("hora") + "</td>");
 	                    out.println("<td>" + listadoJornadas.getString("resultado") + "</td>");
-	                    out.print("<td><a href='modify.jsp?id=" + listadoJornadas.getString("numero_jornada") + "'><input class='btn btn-info btn-sm' type='submit' value='Modificar'/></td>");
+	                    out.print("<td><a href='modify2.jsp?id=" + listadoJornadas.getString("numero_jornada") + "'><input class='btn btn-info btn-sm' type='submit' value='Modificar'/></td>");
 	                    out.println("<td><a href='delete.jsp?id=" + listadoJornadas.getString("numero_jornada") + "'><input class='btn btn-danger btn-sm' type='submit' value='Borrar'/></a></td>");
 	                    out.print("</tr>\n");
 	                }

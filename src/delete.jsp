@@ -35,7 +35,6 @@
                 </div>
                 <ul class="nav navbar-nav">
                     <li><a href="index.jsp" style="color: whitesmoke">Inicio</a></li>
-                    <li><a href="equipo.jsp" style="color: whitesmoke">Equipos</a></li>
                 </ul>
         </nav>
         <div id="container1">

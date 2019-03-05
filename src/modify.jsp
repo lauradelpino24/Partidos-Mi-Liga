@@ -13,15 +13,16 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"  crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"  crossorigin="anonymous">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"  crossorigin="anonymous"></script>
-        <title>Eliminar partido</title>
+        <title>Modificar</title>
+
         <style>
             *{
                 margin: 0;
                 padding: 0;
             }
-            
+
             #container1{
-                
+
                 margin-top: 2.5vw;
             }
         </style>
@@ -35,28 +36,32 @@
                 </div>
                 <ul class="nav navbar-nav">
                     <li><a href="index.jsp" style="color: whitesmoke">Inicio</a></li>
-                    <li><a href="equipo.jsp" style="color: whitesmoke">Equipos</a></li>
                 </ul>
         </nav>
         <div id="container1">
             <div class="panel panel-info" style="background-color: white; text-align: center;">
+
                 
-                    <h2 style="color: #a57bf2;">¿Partido cancelado? ¡Eliminado!</h2>
-                    <br>
-                    <h3 style="color: #a57bf2;">Vuelve a la página de inicio, ahora no aparecerá.</h3>
+                    <%
+                        Class.forName("com.mysql.jdbc.Driver");
+                        Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/mis_partidos", "root", "");
+                        Statement s = conexion.createStatement();
+
+                        String cambiar = "UPDATE jornada SET numero_jornada";
+
+                        cambiar += "= '" + request.getParameter("numero_jornada") + "', equipo_local = '" + request.getParameter("equipo_local")
+                                + "', equipo_visitante = '" + request.getParameter("equipo_visitante") + "', fecha = '" + request.getParameter("fecha")
+                                + "', hora = '" + request.getParameter("hora") + "', resultado = '" + request.getParameter("resultado") 
+                                + "' WHERE numero_jornada = " + request.getParameter("numero_jornada");
+                        
+                        s.execute(cambiar);
+
+                        conexion.close();
+                        
+                        response.sendRedirect("./");
+
+                    %>
             </div>
         </div>
-            <%
-		Class.forName("com.mysql.jdbc.Driver");
-		Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/mis_partidos","root", "");
-		Statement s = conexion.createStatement();
-		
-		String delete = "DELETE FROM jornada WHERE numero_jornada = ";
-		delete += request.getParameter("id");
-		
-		s.execute(delete);
-		
-		conexion.close();
-            %>
     </body>
 </html>
