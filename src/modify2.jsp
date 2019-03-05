@@ -51,7 +51,7 @@
                 <h2 style="color: #a57bf2; margin-top: 1.5vw; margin-bottom: 1.5vw; ">Mis partidos</h2></div>
             <div class="panel panel-dark" style="background-color: #a57bf2; text-align: center; padding: 1vw; margin-top: 0;" >
 
-                <!-- <input type="number" name="numero_jornada" placeholder="numero de jornada" required="required" style=" border: solid 6px white; border-radius: 0.5vw; margin-right: 1vw;"> -->
+
                 <%
                     Class.forName("com.mysql.jdbc.Driver");
                     Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/mis_partidos", "root", "");
@@ -120,11 +120,8 @@
                     }
 
                 %>
-                <!-- <input type="date" name="fecha" placeholder="fecha" style=" border: solid 6px white; border-radius: 0.5vw; margin-right: 1vw;">
-<input type="time" name="hora" placeholder="hora" style=" border: solid 6px white; border-radius: 0.5vw; margin-right: 1vw;">
-<input type="text" name="resultado" placeholder="resultado" style=" border: solid 6px white; border-radius: 0.5vw;">
-<a href='add.jsp?id=" + listadoJornadas.getString("numero_jornada") + "'><input class='btn btn-primary btn-sm' type='submit' value='Añadir' style='margin-left: 1vw;'/></a>
-</form> -->
+
+                </form> -->
             </div>
         </div>
     </body>
