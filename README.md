@@ -3,4 +3,5 @@ Repositorio para mi proyecto, en el que pondré todos los resultados y equipos c
 
 Nada más entrar en el CRUD nos aparecerá la página de inicio.
 
-![index](index.png)
+![alt text](https://github.com/lauradelpino24/Partidos-Mi-Liga/blob/master/images/index.png)
+
