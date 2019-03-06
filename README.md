@@ -1,9 +1,9 @@
 # Partidos-Mi-Liga
-Repositorio para mi proyecto, en el que pondré todos los resultados y equipos con los que he jugado y jugaré.
+Este CRUD lleva los partidos que he jugado y jugaré en esta temporada, de ahí que aún haya algunos sin definir.
+
+Almacena la jornada, los nombres de los equipos (local y visitante), fecha, hora y resultado.
 
 Nada más entrar en el CRUD nos aparecerá la página de inicio en la que podremos añadir, modificar y borrar los partidos.
-
-Estos partidos son los que he jugado y jugaré en esta temporada, de ahí que aún haya algunos sin definir.
 
 ![alt text](https://github.com/lauradelpino24/Partidos-Mi-Liga/blob/master/images/index.png)
 
