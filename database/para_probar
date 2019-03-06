@@ -1,0 +1,13 @@
+En la bbdd, faltarían dos partidos por rellernar. Lo he dejado así para pobrar y demás.
+
+Estos partidos serían: 
+    - numero_jornada -> 25
+    - equipo_local -> PUERTO DE LA TORRE LOS MORALES
+    - equipo_visitante -> 	C.D. LA UNIDAD NUEVA MALAGA
+    (FECHA, HORA Y RESULTADO NO ESTÁN DEFINIDOS).
+    
+    - numero_jornada -> 26
+    - equipo_local -> C.D. BENALMADENA
+    - equipo_visitante -> 	PUERTO DE LA TORRE LOS MORALES
+    (FECHA, HORA Y RESULTADO NO ESTÁN DEFINIDOS).
+    
