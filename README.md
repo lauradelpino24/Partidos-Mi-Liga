@@ -22,3 +22,6 @@ De nuevo, en la página de inicio podemos usar el botón modificar. Esto nos lle
 Por último, si pulsamos en el botón de borrar, se eliminará esa jornada y nos llevará a otra página en la que nos confirma que finalmente se ha eliminado.
 
 ![alt text](https://github.com/lauradelpino24/Partidos-Mi-Liga/blob/master/images/delete.png)
+
+
+Enlace al video: https://www.youtube.com/watch?v=HZEOoFNC0nQ&feature=youtu.be
