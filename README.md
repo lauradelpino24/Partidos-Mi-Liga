@@ -26,13 +26,20 @@ Por último, si pulsamos en el botón de borrar, se eliminará esa jornada y nos
 ----------------- SEGUNDA VERSIÓN -----------------
 
 Se han añadido el registro de usuario y el login con dichos usuarios.
+![alt text](https://github.com/lauradelpino24/Partidos-Mi-Liga/blob/master/images/new-navbar.png)
 
 Si nos dirigimos a Registro, debemos poner un usuario, una contraseña y el equipo al que pertenecemos.
 
+![alt text](https://github.com/lauradelpino24/Partidos-Mi-Liga/blob/master/images/registro.png)
+
 Una vez registrados, podremos ir a Iniciar sesión. Colocamos nuestro usuario y contraseña (que ya deben de estar registrados).
+
+![alt text](https://github.com/lauradelpino24/Partidos-Mi-Liga/blob/master/images/login.png)
 
 Cuando iniciamos sesión, podemos apreciar que aparecen en el navbar el 'Ver mi perfil' y 'Cerrar sesión'.
 En 'Ver mi perfil' podremos ver nuestro nombre de usuario, equipo y el estadio de nuestro equipo.
+
+![alt text](https://github.com/lauradelpino24/Partidos-Mi-Liga/blob/master/images/navbar2.png)
 
 Si pulsamos en 'Cerrar sesión', como su propio nombre dice, se cerrará la sesión del usuario y desapareceran el 'Ver mi perfil' y 'Cerrar sesión' de la navbar y aparecerá de nuevo el 'Registro'.
 
