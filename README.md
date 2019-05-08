@@ -39,9 +39,10 @@ Una vez registrados, podremos ir a Iniciar sesión. Colocamos nuestro usuario y 
 Cuando iniciamos sesión, podemos apreciar que aparecen en el navbar el 'Ver mi perfil' y 'Cerrar sesión'.
 En 'Ver mi perfil' podremos ver nuestro nombre de usuario, equipo y el estadio de nuestro equipo.
 
-![alt text](https://github.com/lauradelpino24/Partidos-Mi-Liga/blob/master/images/navbar2.png)
+![alt text](https://github.com/lauradelpino24/Partidos-Mi-Liga/blob/master/images/profile.png)
 
 Si pulsamos en 'Cerrar sesión', como su propio nombre dice, se cerrará la sesión del usuario y desapareceran el 'Ver mi perfil' y 'Cerrar sesión' de la navbar y aparecerá de nuevo el 'Registro'.
 
+![alt text](https://github.com/lauradelpino24/Partidos-Mi-Liga/blob/master/images/navbar2.png)
 
 Enlace al video: https://www.youtube.com/watch?v=HZEOoFNC0nQ&feature=youtu.be
